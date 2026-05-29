@@ -8,12 +8,6 @@ An interactive data-driven dashboard built with **Streamlit** that provides pers
 
 ---
 
-## 📸 Demo
-
-> Input your physical data → Get real-time BMI analysis → Receive personalized food & activity recommendations.
-
----
-
 ## 🚀 Features
 
 - **Real-time BMI Calculator** — Instantly computes BMI from weight and height input
