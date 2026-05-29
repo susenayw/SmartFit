@@ -165,7 +165,7 @@ User Input (gender, weight, height)
 
 ## 📄 License
 
-This project is for educational and portfolio purposes only.
+This project is for educational and portfolio purposes.
 
 ---
 
