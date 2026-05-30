@@ -19,3 +19,6 @@ npm run start:dev
 ```
 
 5. Server berjalan pada local di port 3000
+
+Link monorepo backend : 
+https://github.com/clunckyboy/SmartFit-Back-End
