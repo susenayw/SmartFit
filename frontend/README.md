@@ -12,3 +12,5 @@ npm run dev
 ```
 
 3. Buka http://localhost:5173/ di browser
+
+Link monorepo frontend : https://github.com/clunckyboy/SmartFit-Front-End
