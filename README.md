@@ -1,6 +1,8 @@
 # SmartFit - Pelatih Kesehatan Digital Pribadi Anda
 
-<img width="2848" height="1710" alt="image" src="https://github.com/user-attachments/assets/8147cce3-8be8-4959-907b-7f74a6204607" />
+<img width="1000" alt="image" src="https://github.com/user-attachments/assets/e95dc3d6-55c5-4bf3-9902-e7bb136f2245" />
+<img width="1000" alt="image" src="https://github.com/user-attachments/assets/9f349a85-089e-4fac-b76b-0f88323ad75c" />
+
 
 ## Deskripsi Singkat
 SmartFit merupakan aplikasi web kesehatan inovatif yang dirancang sebagai solusi personal untuk mengatasi rencana nutrisi dan olahraga yang terlalu umum. Aplikasi ini dapat mentransformasi pendekatan konvensional dengan menggabungkan **analisis data fisik presisi** dan **algoritma adaptif** untuk menciptakan rencana kesehatan yang dipersonalisasi.
