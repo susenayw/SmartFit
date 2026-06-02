@@ -34,7 +34,7 @@ function SignupPage() {
     const response = await register({ username, email, password, firstName, lastName, sex, weight, height, goal, age });
     if (!response.error) {
       alert('Registered Successfully');
-      navigate('/');
+      navigate('/login');
     }
   }
 
