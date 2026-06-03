@@ -52,7 +52,7 @@ function SignupPage() {
           <h1 className="text-3xl sm:text-4xl font-special-gothic-expanded-one">Create Account</h1>
         </div>
 
-        <form onSubmit={onSubmitHandler} className="w-full max-w-sm flex flex-col justify-center space-y-3">
+        <form onSubmit={onSubmitHandler} className="w-full max-w-sm flex flex-col items-center justify-center space-y-3">
           <fieldset className="border-none p-0 m-0 space-y-3">
             <legend className="text-xl font-montserrat font-bold mb-5 block">Credentials</legend>
 
