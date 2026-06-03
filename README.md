@@ -26,7 +26,7 @@ Aplikasi web SmartFit dibangun dengan cakupan fitur utama sebagai berikut:
 1. Git: Untuk melakukan clone repositori dari GitHub.
 2. Node.js (Versi LTS - 20.x atau terbaru) & npm: Untuk menjalankan framework Vite (Frontend) dan Express.js (Backend).
 3. Python (Wajib versi 3.11 atau lebih baru): Untuk menjalankan inferensi model AI
-4. PostgreSQL: sebagai database aplikasi
+4. PostgreSQL: sebagai database aplikasi. Buat database dengan nama 'smartfit'
 5. Sediakan Port 3000 untuk service backend
 
 ### Langkah-langkah
