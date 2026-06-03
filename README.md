@@ -19,6 +19,8 @@ Aplikasi web SmartFit dibangun dengan cakupan fitur utama sebagai berikut:
 * **Re-kalibrasi Mingguan Berbasis AI:** Analitik mingguan yang otomatis memperbarui target dan rekomendasi berdasarkan progres nyata performa fisik pengguna.
 * **Gamifikasi Streak:** Sistem pelacakan konsistensi harian dengan indikator visual interaktif untuk meningkatkan motivasi, kedisiplinan, dan retensi pengguna.
 
+## Model AI
+https://drive.google.com/drive/folders/1aKqEcjae_mxVht5zLzDN71-BF6qRahdf?usp=sharing
 
 ## Cara setup aplikasi di lokal
 
