@@ -84,7 +84,17 @@ def predict_intensity(data: UserInput):
                     {"id": 5, "name": "Boiled Egg", "portion": "1 piece", "kcal": 77, "emoji": "🥚"},
                     {"id": 6, "name": "Apple", "portion": "1 piece", "kcal": 95, "emoji": "🍎"},
                     {"id": 7, "name": "Almond Milk", "portion": "250ml", "kcal": 39, "emoji": "🥛"},
-                    {"id": 8, "name": "Almonds", "portion": "20g", "kcal": 115, "emoji": "🥜"}
+                    {"id": 8, "name": "Almonds", "portion": "20g", "kcal": 115, "emoji": "🥜"},
+                    {"id": 9, "name": "Green Tea", "portion": "1 cup", "kcal": 2, "emoji": "🍵"},
+                    {"id": 10, "name": "Strawberries", "portion": "100g", "kcal": 32, "emoji": "🍓"},
+                    {"id": 11, "name": "Cucumber Slices", "portion": "150g", "kcal": 24, "emoji": "🥒"},
+                    {"id": 12, "name": "Watermelon", "portion": "200g", "kcal": 60, "emoji": "🍉"},
+                    {"id": 13, "name": "Pear", "portion": "1 piece", "kcal": 101, "emoji": "🍐"},
+                    {"id": 14, "name": "Chia Seeds", "portion": "15g", "kcal": 73, "emoji": "🥄"},
+                    {"id": 15, "name": "Carrot Sticks", "portion": "100g", "kcal": 41, "emoji": "🥕"},
+                    {"id": 16, "name": "Rice Cakes", "portion": "2 pieces", "kcal": 70, "emoji": "🍘"},
+                    {"id": 17, "name": "Soy Milk", "portion": "250ml", "kcal": 80, "emoji": "🥛"},
+                    {"id": 18, "name": "Blueberries", "portion": "100g", "kcal": 57, "emoji": "🫐"}
                 ]
             },
             "Light": {
@@ -104,7 +114,17 @@ def predict_intensity(data: UserInput):
                     {"id": 5, "name": "Steamed Tofu", "portion": "100g", "kcal": 76, "emoji": "🧊"},
                     {"id": 6, "name": "Edamame", "portion": "100g", "kcal": 121, "emoji": "🫛"},
                     {"id": 7, "name": "Dragon Fruit", "portion": "150g", "kcal": 90, "emoji": "🐉"},
-                    {"id": 8, "name": "Brown Rice", "portion": "100g", "kcal": 110, "emoji": "🍚"}
+                    {"id": 8, "name": "Brown Rice", "portion": "100g", "kcal": 110, "emoji": "🍚"},
+                    {"id": 9, "name": "Cherry Tomatoes", "portion": "150g", "kcal": 27, "emoji": "🍅"},
+                    {"id": 10, "name": "Orange", "portion": "1 piece", "kcal": 62, "emoji": "🍊"},
+                    {"id": 11, "name": "Papaya", "portion": "150g", "kcal": 65, "emoji": "🥭"},
+                    {"id": 12, "name": "Steamed Spinach", "portion": "100g", "kcal": 23, "emoji": "🥬"},
+                    {"id": 13, "name": "Multigrain Crackers", "portion": "30g", "kcal": 120, "emoji": "🍘"},
+                    {"id": 14, "name": "Boiled Corn", "portion": "1 cob", "kcal": 96, "emoji": "🌽"},
+                    {"id": 15, "name": "Melon Slices", "portion": "200g", "kcal": 68, "emoji": "🍈"},
+                    {"id": 16, "name": "Miso Soup", "portion": "1 bowl", "kcal": 40, "emoji": "🥣"},
+                    {"id": 17, "name": "Boiled Pumpkin", "portion": "100g", "kcal": 26, "emoji": "🎃"},
+                    {"id": 18, "name": "Grapefruit", "portion": "1 piece", "kcal": 52, "emoji": "🍊"}
                 ]
             },
             "Moderate": {
@@ -124,7 +144,17 @@ def predict_intensity(data: UserInput):
                     {"id": 5, "name": "Boiled Broccoli", "portion": "150g", "kcal": 53, "emoji": "🥦"},
                     {"id": 6, "name": "Boiled Sweet Potato", "portion": "150g", "kcal": 129, "emoji": "🍠"},
                     {"id": 7, "name": "Grilled Chicken Breast", "portion": "150g", "kcal": 220, "emoji": "🍗"},
-                    {"id": 8, "name": "Vegetable Salad", "portion": "200g", "kcal": 80, "emoji": "🥗"}
+                    {"id": 8, "name": "Vegetable Salad", "portion": "200g", "kcal": 80, "emoji": "🥗"},
+                    {"id": 9, "name": "Whole Wheat Pasta", "portion": "100g", "kcal": 124, "emoji": "🍝"},
+                    {"id": 10, "name": "Black Beans", "portion": "100g", "kcal": 132, "emoji": "🫘"},
+                    {"id": 11, "name": "Grilled Tilapia", "portion": "150g", "kcal": 192, "emoji": "🐟"},
+                    {"id": 12, "name": "Soba Noodles", "portion": "100g", "kcal": 99, "emoji": "🍜"},
+                    {"id": 13, "name": "Lentil Soup", "portion": "1 bowl", "kcal": 186, "emoji": "🍲"},
+                    {"id": 14, "name": "Roasted Chickpeas", "portion": "50g", "kcal": 180, "emoji": "🧆"},
+                    {"id": 15, "name": "Baked Potato", "portion": "1 medium", "kcal": 161, "emoji": "🥔"},
+                    {"id": 16, "name": "Boiled Shrimp", "portion": "100g", "kcal": 99, "emoji": "🍤"},
+                    {"id": 17, "name": "Turkey Breast", "portion": "100g", "kcal": 135, "emoji": "🥩"},
+                    {"id": 18, "name": "Couscous", "portion": "100g", "kcal": 112, "emoji": "🍚"}
                 ]
             },
             "Vigorous": {
@@ -144,7 +174,17 @@ def predict_intensity(data: UserInput):
                     {"id": 5, "name": "Boiled Egg Whites", "portion": "4 pieces", "kcal": 68, "emoji": "🥚"},
                     {"id": 6, "name": "Greek Yogurt", "portion": "150g", "kcal": 88, "emoji": "🍶"},
                     {"id": 7, "name": "Oatmeal", "portion": "100g", "kcal": 389, "emoji": "🥣"},
-                    {"id": 8, "name": "Roasted Asparagus", "portion": "100g", "kcal": 20, "emoji": "🎋"}
+                    {"id": 8, "name": "Roasted Asparagus", "portion": "100g", "kcal": 20, "emoji": "🎋"},
+                    {"id": 9, "name": "Peanut Butter", "portion": "2 tbsp", "kcal": 188, "emoji": "🥜"},
+                    {"id": 10, "name": "Cottage Cheese", "portion": "150g", "kcal": 147, "emoji": "🧀"},
+                    {"id": 11, "name": "Tuna Salad", "portion": "200g", "kcal": 380, "emoji": "🥗"},
+                    {"id": 12, "name": "Beef Jerky", "portion": "50g", "kcal": 205, "emoji": "🥩"},
+                    {"id": 13, "name": "Protein Bar", "portion": "1 piece", "kcal": 220, "emoji": "🍫"},
+                    {"id": 14, "name": "Sweet Potato Mash", "portion": "200g", "kcal": 172, "emoji": "🍠"},
+                    {"id": 15, "name": "Mixed Nuts", "portion": "30g", "kcal": 180, "emoji": "🥜"},
+                    {"id": 16, "name": "Sardines (in water)", "portion": "100g", "kcal": 148, "emoji": "🐟"},
+                    {"id": 17, "name": "Whey Protein Isolate", "portion": "1 scoop", "kcal": 110, "emoji": "🥛"},
+                    {"id": 18, "name": "Roasted Chicken Thigh", "portion": "150g", "kcal": 315, "emoji": "🍗"}
                 ]
             }
         }
