@@ -18,3 +18,83 @@ Aplikasi web SmartFit dibangun dengan cakupan fitur utama sebagai berikut:
 * **Sistem Rekomendasi Adaptif:** Panduan menu makanan (nutrisi) dan jenis latihan fisik harian yang disesuaikan khusus dengan kebutuhan kalori pengguna.
 * **Re-kalibrasi Mingguan Berbasis AI:** Analitik mingguan yang otomatis memperbarui target dan rekomendasi berdasarkan progres nyata performa fisik pengguna.
 * **Gamifikasi Streak:** Sistem pelacakan konsistensi harian dengan indikator visual interaktif untuk meningkatkan motivasi, kedisiplinan, dan retensi pengguna.
+
+
+## Cara setup aplikasi di lokal
+
+### Persyaratan
+1. Git: Untuk melakukan clone repositori dari GitHub.
+2. Node.js (Versi LTS - 20.x atau terbaru) & npm: Untuk menjalankan framework Vite (Frontend) dan Express.js (Backend).
+3. Python (Wajib versi 3.11 atau lebih baru): Untuk menjalankan inferensi model AI
+4. PostgreSQL: sebagai database aplikasi
+5. Sediakan Port 3000 untuk service backend
+
+### Langkah-langkah
+1. Clone repositori ini ke direktori lokal anda.
+```bash
+git clone https://github.com/susenayw/SmartFit.git
+```
+
+2. Masuk ke dalam direktori project
+```bash
+cd SmartFit
+```
+
+3. Anda sudah masuk ke direktori root project. Masuk ke folder ai-model untuk mengaktifkan server api model
+```bash
+cd ai-model/smartfit-ai-model
+```
+
+4. Jalankan service AI model
+```bash
+# Buat virtual environment
+python -m venv venv
+
+# Aktifkan (Windows)
+venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Jalankan server
+uvicorn api:app --reload
+```
+5. Buka terminal baru, lalu masuk ke folder backend untuk mengaktifkan server backend
+
+```bash
+cd backend
+
+# Install packages
+npm install 
+```
+
+6. Buat file .env berdasarkan file .env.example. Ubah value yang diberi comment (#) sesuai dengan konfigurasi sistem anda
+
+7. Jalankan command untuk migrate database
+```cmd
+npm run migrate up
+```
+
+8. Jalankan server
+```cmd
+npm run start:dev
+```
+
+9. Server berjalan pada local di port 3000
+
+10. Buka terminal baru, pergi ke folder frontend
+```bash
+cd frontend
+```
+
+11. Install packages
+```bash
+npm install
+```
+
+12. Jalankan program
+```bash
+npm run dev
+```
+
+13. Buka http://localhost:5173/ di browser. Aplikasi sudah siap untuk digunakan
