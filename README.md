@@ -98,3 +98,6 @@ npm run dev
 ```
 
 13. Buka http://localhost:5173/ di browser. Aplikasi sudah siap untuk digunakan
+
+## Link aplikasi 
+https://smartfit-app.vercel.app/
