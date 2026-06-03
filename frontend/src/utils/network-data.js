@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:3000';
+const BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000';
 
 function getAccessToken() {
   return localStorage.getItem('accessToken');
@@ -84,7 +84,7 @@ async function logout() {
   localStorage.removeItem('refreshToken');
 }
 
-const AI_MODEL_URL = 'http://127.0.0.1:8000';
+const AI_MODEL_URL = import.meta.env.VITE_AI_MODEL_URL || 'http://127.0.0.1:8000';
 
 async function getAIRecommendations(user) {
 
